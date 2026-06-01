@@ -17,7 +17,3 @@ def encrypt(text: str) -> str:
 def main():
     transport = os.environ.get("MCP_TRANSPORT", "stdio")
     mcp.run(transport=transport)
-
-
-if __name__ == "__main__":
-    main()
